@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Slab&display=swap');
+
+
+
+.wrapper{
+    display: flex;
+    width: 1138px;
+    margin: 0 auto;
+    justify-content: space-between;
+    column-gap: 170px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: blue;
+    width: 232.71px;
+    height: 273.51px;
+    margin-top: 26px;
+    margin-bottom: 9px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    border-radius: 32.2762px;
+}
+
+h4{
+    display: inline;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.6103px;
+    line-height: 37px;
+    border-bottom: 2px solid #ffffff;
+    
+    color: #FFFFFF;
+}
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.4069px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 42px;
+}
+
+
+.trening_star{
+    height: 38px;
+    width: 36px;
+    background: url(../images/star.svg) no-repeat;
+    background-size: cover;
+    margin: 23px 0 13px 180px;
+}
+
+.start{
+    width: 158px;
+    height: 42px;
+    background: #479F77;
+    box-shadow: 0px 0px 3px rgba(255, 255, 255, 0.3);
+    border-radius: 22px;
+    border:none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+
+.horizontalLine {
+    height: 5px;
+    border: none;
+    background-color:#479F77;
+    width: 100%;
+    margin: 20px 0;
+    position: relative;
+  }
+
+body{
+    overflow-x: hidden;
+    
+}
+.hiden {
+    position:absolute;
+    height: 639px;
+    width: 100%;
+    transform: scaleX(3);
+    
+    background-color: aqua;
+}
+  
+.relative {
+    position: relative;
+}
+  
+
+  
+.absolute {
+    position: absolute;
+    
+}
